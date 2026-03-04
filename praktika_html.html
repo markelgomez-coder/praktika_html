@@ -6,32 +6,36 @@
 </head>
 
 <body>
-  <h1>Titulo de pagina</h1>
-  <h2>Entradilla de pagina</h2>
-  <div>
-    <p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit.</em> Adipisci <strong>voluptatum sed error
+  <header>
+    <h1>Titulo de pagina</h1>
+    <h2>Entradilla de pagina</h2>
+  </header>
+  <section>
+    <header>
+      <p>Lorem ipsum dolor sit amet consectetur <em>adipisicing elit.</em> Adipisci <strong>voluptatum sed error
       </strong>magnam maxime illum provident dolorem, esse ex, quia atque expedita eaque inventore vitae quisquam
       consectetur corrupti? Ab dignissimos iusto distinctio.</p>
-    <section>
-      <h2>Titulo de seccion</h1>
+    </header>
+      <article>
+      <h2>Titulo de articulo</h1>
       <p>subtitulo</p>
-      <p>Descripcion de seccion</p>
+      <p>Descripcion de articulo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum illo vero eius. Delectus eaque ipsum cupiditate maxime reiciendis? Ipsa commodi perferendis dignissimos nostrum, eveniet repudiandae iure. Ex architecto ea iste fugiat!</p>
       <form>
         <h1>Encuesta de sobre frutos secos</h1>
         <label for="item-lista">
           Cual es el mejor fruto seco ?
-          <input id="item-lista" type="text" />
+          <input id="item-lista" type="text" name="mejor-frutos-secos"/>
         </label>
 
         <p>Si mojo un fruto seco sigue siendo fruto seco ??</p>
 
         <div>
-          <input type="radio" id="frutos-secos-si" name="form-frutos-secos" value="frutos-secos-si" checked/>
+          <input type="radio" id="frutos-secos-si" name="radio-frutos-secos" value="frutos-secos-si" checked/>
           <label for="frutos-secos-si">Si</label>
         </div>
 
         <div>
-          <input type="radio" id="frutos-secos-no" name="form-frutos-secos" value="frutos-secos-no"/>
+          <input type="radio" id="frutos-secos-no" name="radio-frutos-secos" value="frutos-secos-no"/>
           <label for="frutos-secos-no">No</label>
         </div>
 
@@ -39,18 +43,32 @@
 
       </form>
       <img src="https://samplelib.com/lib/preview/png/sample-hut-400x300.png" alt="">
-      <a href="https://rosariocentral.com/">Pagina de Rosario Central</a>
-    </section>
-  </div>
+      <footer>
+        <a href="https://rosariocentral.com/">Pagina de Rosario Central</a>
+      </footer>
+    </article>
+  </section>
   <aside>
+    <nav>
     <p>Mejores juegos multijugador</p>
     <ol>
-      <li>Mario Kart</li>
-      <li>Just Dance</li>
-      <li>Wii Party</li>
-      <li>Fifa</li>
-      <li>Wii Spot Resort</li>
+      <li>
+        <a href="https://mariokart8.nintendo.com/es/">Mario Kart </a>
+      </li>
+      <li>
+        <a href="https://www.justdancenow.com/?lang=es">Just Dance</a>
+      </li>
+      <li>
+        <a href="https://www.nintendo.com/es-es/Juegos/Wii/Wii-Party-283938.html?srsltid=AfmBOoo-0UCgaaNPbvWLxHZ-GM9ox3OwC8cwDSeauciEbBzYhoAQFcGq">Wii Party</a>
+      </li>
+      <li>
+        <a href="https://www.ea.com/es/games/ea-sports-fc">Fifa (EA FC)</a>
+      </li>
+      <li>
+        <a href="https://www.nintendo.com/es-es/Juegos/Wii/Wii-Sports-Resort-283982.html?srsltid=AfmBOooAv4VjpnSqt1loBUn2lGGNkKzuFkZbg1gaaXa6gy4u_HK5fDiU">Wii Spot Resort</a>
+      </li>
     </ol>
+    </nav>
   </aside>
 </body>
 
